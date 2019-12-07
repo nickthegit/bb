@@ -2,15 +2,11 @@
   <main>
     <section id="hero"></section>
     <article>
-      <img src="/bar_logo.png" alt="Pure Hair logo" />
+      <img src="/bar_logo.png" alt="Beauty Bar logo" />
       <section>
         <h1>Welcome to The Beauty Bar, Yeovil</h1>
         <p>The beauty bar is situated upstairs within Tesco extra right in the heart of Yeovil, the perfect location for your convenience.</p>
         <a class="btn" href="javascript:void(0)" onclick="saloniq.loader.openIFrame()">Book Online</a>
-        <!-- <a
-          href="https://purehair.mylocalsalon.com/onlinebooking/v7410/Steps/SelectServices.aspx"
-          class="btn"
-        >Book Online Now</a>-->
       </section>
       <section id="contact">
         <a href="tel:+44 1935 434534">01935 434534</a>
@@ -58,26 +54,7 @@
     components: {
       Logo
     },
-    mounted() {
-      !(function(b, c) {
-        ;(b.saloniqid = '1e7d7624-feb7-4950-a6be-5fbb1498ee39'),
-          (b.saloniqsite = 'https://demowidget.saloniq.co.uk')
-        var d,
-          g,
-          e = 'onlinebookingwidget-loader',
-          f = c.getElementsByTagName('script')[0]
-        c.getElementById(e) ||
-          ((d = c.createElement('script')),
-          (d.id = e),
-          (d.async = !0),
-          (d.src =
-            b.saloniqsite +
-            '/scripts/onlinebookingwidget-loader.js?d=' +
-            Date.now()),
-          (g = f ? f.parentNode : c.getElementsByTagName('head')[0]),
-          g.insertBefore(d, f))
-      })(window, document)
-    }
+    mounted() {}
   }
 </script>
 
