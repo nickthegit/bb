@@ -6,7 +6,10 @@
       <section>
         <h1>Welcome to The Beauty Bar, Yeovil</h1>
         <p>The beauty bar is situated upstairs within Tesco extra right in the heart of Yeovil, the perfect location for your convenience.</p>
-        <a class="btn" href="javascript:void(0)" onclick="saloniq.loader.openIFrame()">Book Online</a>
+        <a
+          class="btn"
+          href="https://bookings.saloniq.co.uk/widget/dist/?6cf3e0f8-75f7-4b77-b6d2-9bbc17c996c8"
+        >Book Online</a>
       </section>
       <section id="contact">
         <a href="tel:+44 1935 434534">01935 434534</a>
